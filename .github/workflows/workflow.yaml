@@ -1,11 +1,15 @@
-# name: main
-# on:
-#   push:
-#     brnaches:
-#       - master
-#   schedule:
-#     - cron: "0 0 0 0 6"
-# jobs:
+name: workflow
+on:
+  push:
+    brnaches:
+      - master
+  schedule:
+    - cron: "0 0 0 0 6"
+jobs:
+  helloworld:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "hello world"
 #   docker:
 #     name: build container
 #     runs-on: ubuntu-latest
