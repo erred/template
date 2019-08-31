@@ -1,10 +1,10 @@
 .PHONY: all
 all:
-	sed -i 's/REPO/'$(basename $PWD )'/g' **/*
+	sed -i 's/REPO/'$(basename $(pwd) )'/g' **/*
 	sed -i 's/USER/seankhliao/g' **/*
-	echo 'Disable: Wikis, Projects @ https://github.com/seankhliao/'$(basename $PWD)'/settings'
-	echo 'Edit README.md'
-	git commit -a -m "customize repo"
+	echo -e '\033[1mDisable: Wikis, Projects @ https://github.com/seankhliao/'$(basename $(pwd))'/settings\033[0m'
+	echo -e '\033[1mEdit README.md\033[0m'
+	git commit -a -m "automated customize repo"
 	sed -i '1,9d' Makefile
 
 .PHONY: build
