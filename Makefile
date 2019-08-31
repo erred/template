@@ -1,7 +1,7 @@
 DIR := $$(basename $$(git rev-parse --show-toplevel))
 .PHONY: all
 all:
-	find . -type f -not -path '.git/*' -exec sed -i 's/TEMPLATE/'${DIR}'/g' {} \;
+	find ./* -type f -not -path '.git/*' -exec sed -i 's/TEMPLATE/'${DIR}'/g' {} \;
 	sed -i '1,11d' Makefile
 	git commit -a -m "automated customize repo"
 	@echo -e '\n\033[1mTODO:\033[0m'
