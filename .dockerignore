@@ -1,0 +1,11 @@
+.dockerignore
+.git
+.github
+.gitignore
+
+REPO
+
+cloudbuild.yaml
+Dockerfile
+LICENSE
+README.md
