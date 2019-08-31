@@ -1,3 +1,3 @@
-module seankhliao.com/REPO
+module seankhliao.com/TEMPLATE
 
 go 1.12

@@ -4,4 +4,4 @@
 
 ## Reporting a Vulnerability
 
-Email: security-REPO@seankhliao.com
+Email: security-TEMPLATE@seankhliao.com

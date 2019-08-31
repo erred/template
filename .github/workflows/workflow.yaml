@@ -14,5 +14,5 @@
 #       - run: docker login registry -u USER -p $TOKEN
 #         env:
 #           TOKEN: ${{ secrets.PAT }}
-#       - run: docker build -t docker.pkg.github.com/USER/REPO/REPO:${GITHUB_SHA:0:7} -t docker.pkg.github.com/USER/REPO/REPO:latest .
-#       - run: docker push docker.pkg.github.com/USER/REPO/REPO:${GITHUB_SHA:0:7} docker.pkg.github.com/USER/REPO/REPO:latest
+#       - run: docker build -t docker.pkg.github.com/USER/TEMPLATE/TEMPLATE:${GITHUB_SHA:0:7} -t docker.pkg.github.com/USER/TEMPLATE/TEMPLATE:latest .
+#       - run: docker push docker.pkg.github.com/USER/TEMPLATE/TEMPLATE:${GITHUB_SHA:0:7} docker.pkg.github.com/USER/TEMPLATE/TEMPLATE:latest

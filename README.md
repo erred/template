@@ -1,7 +1,7 @@
-# REPO
+# TEMPLATE
 
-[![License](https://img.shields.io/github/license/USER/REPO.svg?style=for-the-badge&maxAge=31536000)](LICENSE)
-[![workflow](https://github.com/USER/REPO/workflows/workflow/badge.svg)](https://github.com/USER/REPO/actions)
+[![License](https://img.shields.io/github/license/USER/TEMPLATE.svg?style=for-the-badge&maxAge=31536000)](LICENSE)
+[![workflow](https://github.com/USER/TEMPLATE/workflows/workflow/badge.svg)](https://github.com/USER/TEMPLATE/actions)
 
 ## Use this template
 

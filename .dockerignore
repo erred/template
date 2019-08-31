@@ -3,7 +3,7 @@
 .github
 .gitignore
 
-REPO
+TEMPLATE
 
 cloudbuild.yaml
 Dockerfile
