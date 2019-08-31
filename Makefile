@@ -5,7 +5,7 @@ all:
 	sed -i '1,11d' Makefile
 	git commit -a -m "automated customize repo"
 	@echo -e '\n\033[1mTODO:\033[0m'
-	@echo -e '\tDisable: Wikis, Projects @ https://github.com/seankhliao/'${DIR)'/settings'
+	@echo -e '\tDisable: Wikis, Projects @ https://github.com/seankhliao/'${DIR}'/settings'
 	@echo -e '\tEdit README.md'
 	@echo -e '\tEdit .github/workflows/workflow.yaml'
 
